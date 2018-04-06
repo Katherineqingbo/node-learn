@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "win dos常用命令\r 2.cmd     //进入dos系统\r 3.cls     //清空屏幕\r 4.exit    //退出dos\r 5.mkdir   //创建目录\r 6.dir     //查看目录\r 7.rmdir   //删除目录\r 8.ping    //通讯测试\r 9.start http://www.baidu.com             //打开浏览器\r 10.tasklist                              //查看进程\r 11.taskkill [taskkill /f /im chrome.exe] //关闭进程\r 12.cd 切换目录\r 13.netstat -ano              //查看计算器端口\r 14.netstat -ano|find \"445\"   //查看置顶端口\r 15.ipconfig                  //查看IP地址",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katherineqingbo/node-learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katherineqingbo/node-learn/issues"
+  },
+  "homepage": "https://github.com/Katherineqingbo/node-learn#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security"
+  },
+  "dependencies": {
+    "events": "^2.0.0"
+  }
+}

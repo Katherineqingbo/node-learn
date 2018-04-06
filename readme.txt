@@ -14,4 +14,14 @@ win dos常用命令
 14.netstat -ano|find "445"   //查看置顶端口
 15.ipconfig                  //查看IP地址
 
-node repl开发:
+
+1.npm list         //查看本地模块
+2.npm install      //安装模块
+3.npm uninstall    //卸载模块
+4.npm root
+5.npm update        //更新
+
+
+node回调函数
+1.同步(阻塞I/O)
+2.异步(非阻塞I/O)
