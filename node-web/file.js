@@ -15,3 +15,7 @@ fs.readFile(file,function(err,data){
 
 //读取文件结束
 console.log('file end');
+
+fs.writeFile(file,'\n我是后写入的');
+
+fs.unlink(file)
